@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title>Gitee代码克隆以及上传</title>
+      <link href="/archives/4b45517f.html"/>
+      <url>/archives/4b45517f.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-配置"><a href="#1-配置" class="headerlink" title="1.配置"></a>1.配置</h2><ul><li><p><strong>在桌面新建一个文件夹，右键Git Bash Here，配置git操作的用户名，邮箱</strong></p><p><code>git config --global user.name &quot;你的名字或者昵称&quot;</code></p><p><code>git config --global user.email &quot;你的邮箱&quot;</code></p></li><li><p><strong>配置ssh公钥</strong></p><p><strong>在Git Bash Here输入如下命令，生成SSH key</strong></p><p><code>ssh-keygen -t rsa -C &quot;你的邮箱&quot;</code></p></li><li><p><strong>输入如下命令，复制刚才生成的SSH key</strong></p><p><code>cat ~/.ssh/id_rea.pub</code></p></li><li><p><strong>Gitee右上角个人设置-&gt;安全设置-&gt;SSH公钥-&gt;添加公钥，复制生成的public key，添加到当前账户中</strong></p></li><li><p><img src="https://cdn.jsdelivr.net/gh/luocheng49/MyBlogImage/img/202301271711562.png" alt="image-20220302211648111"></p></li><li><p><strong>测试SSH key是否配置成功</strong></p><p><code>$ssh -T git@gitee.com</code></p><p><img src="https://cdn.jsdelivr.net/gh/luocheng49/MyBlogImage/img/202301271712336.png" alt="image-20220302211850823"></p><p><strong>配置成功</strong></p></li></ul><h2 id="2-上传代码到Gitee"><a href="#2-上传代码到Gitee" class="headerlink" title="2.上传代码到Gitee"></a>2.上传代码到Gitee</h2><p><strong>在代码文件夹点击右键Git Bash Here</strong><br>输入如下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;my commit&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure><p><strong>代码上传成功</strong></p><h2 id="3-克隆代码到本地"><a href="#3-克隆代码到本地" class="headerlink" title="3.克隆代码到本地"></a>3.克隆代码到本地</h2><p><strong>在Gitee所需要克隆的项目中找到克隆/下载，复制地址</strong></p><p><img src="https://cdn.jsdelivr.net/gh/luocheng49/MyBlogImage/img/202301271712280.png" alt="image-20220302212552543"></p><p><strong>在桌面点击右键Git Bash Here,输入如下代码:</strong></p><p><code>git clone https://gitee.com/luo-cheng49/gitee-code-upload-and-download.git</code></p><p><strong>项目就克隆到桌面了</strong></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>eclipse自动补全代码</title>
+      <link href="/archives/95e15736.html"/>
+      <url>/archives/95e15736.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Eclipse自动补全代码"><a href="#Eclipse自动补全代码" class="headerlink" title="Eclipse自动补全代码"></a>Eclipse自动补全代码</h1><h2 id="Java代码自动补全"><a href="#Java代码自动补全" class="headerlink" title="Java代码自动补全"></a>Java代码自动补全</h2><p><strong>依次点击Window –&gt; Perferences（选项设置） –&gt; Java –&gt; Editor（编辑） –&gt; Content Assist</strong></p><p><img src="https://cdn.jsdelivr.net/gh/luocheng49/MyBlogImage/img/202301271710028.png" alt="image-20220328151930860"></p><p><img src="https://cdn.jsdelivr.net/gh/luocheng49/MyBlogImage/img/202301271710339.png" alt="image-20220328152120439"></p><h2 id="HTML代码自动补全"><a href="#HTML代码自动补全" class="headerlink" title="HTML代码自动补全"></a>HTML代码自动补全</h2><p><img src="https://cdn.jsdelivr.net/gh/luocheng49/MyBlogImage/img/202301271710929.png" alt="image-20220328152311252"></p><h2 id="XML代码自动补全"><a href="#XML代码自动补全" class="headerlink" title="XML代码自动补全"></a>XML代码自动补全</h2><p><img src="https://cdn.jsdelivr.net/gh/luocheng49/MyBlogImage/img/202301271710660.png" alt="image-20220328152408218"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/archives/4a17b156.html"/>
       <url>/archives/4a17b156.html</url>
